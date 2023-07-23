@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Registration</servlet-name>
+  	<display-name>Registration</display-name>
+  	<description></description>
+  	<servlet-class>Servlets.Registration</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UserRegistration</servlet-name>
+  	<display-name>UserRegistration</display-name>
+  	<description></description>
+  	<servlet-class>com.blog.servlets.UserRegistration</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UserLogin</servlet-name>
+  	<display-name>UserLogin</display-name>
+  	<description></description>
+  	<servlet-class>com.blog.servlets.UserLogin</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CreateBlog</servlet-name>
+  	<display-name>CreateBlog</display-name>
+  	<description></description>
+  	<servlet-class>com.blog.servlets.CreateBlog</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Comment</servlet-name>
+  	<display-name>Comment</display-name>
+  	<description></description>
+  	<servlet-class>com.blog.servlets.Comment</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Registration</servlet-name>
+  	<url-pattern>/Registration</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserRegistration</servlet-name>
+  	<url-pattern>/UserRegistration</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserLogin</servlet-name>
+  	<url-pattern>/UserLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CreateBlog</servlet-name>
+  	<url-pattern>/CreateBlog</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Comment</servlet-name>
+  	<url-pattern>/Comment</url-pattern>
+  </servlet-mapping>
+</web-app>

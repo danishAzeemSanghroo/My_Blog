@@ -1,0 +1,5 @@
+com\blog\servlets\Comment.class
+com\blog\servlets\CreateBlog.class
+com\blog\servlets\UserRegistration.class
+com\blog\database\DatabaseManager.class
+com\blog\servlets\UserLogin.class
